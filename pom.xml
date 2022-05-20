@@ -129,6 +129,6 @@
 	</build>
 
 	<modules>
-		<module>aws-lambda</module>
+		<module>practice-aws-lambda</module>
 	</modules>
 </project>
