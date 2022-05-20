@@ -1,2 +1,5 @@
-# practice-springboot-aws
-Practice project with SpringBoot and AWS
+# Practice AWS with SpringBoot
+
+## Practice Overview
+
+- AWS Lambda
