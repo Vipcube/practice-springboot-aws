@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    function:
+      definition: functionRouter
+      routing-expression: headers['pathParameters']['proxy']
+      #routing-expression: headers['headers']['function']
+
+  datasource:
+    url: jdbc:h2:mem:customerdb
+    driver-class-name: org.h2.Driver
+    username: sa
+
+  jpa:
+    hibernate:
+      ddl-auto: update
